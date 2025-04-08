@@ -43,9 +43,3 @@ echo -e "${GREEN}Setting Zsh as the default shell...${NC}"
 chsh -s $(which zsh)
 
 echo -e "${GREEN}Installation complete. Please restart your terminal or log out and back in to start using Zsh with Oh My Posh!${NC}"
-
-# Start Zsh
-zsh -y
-
-# Exit script
-exit 0
